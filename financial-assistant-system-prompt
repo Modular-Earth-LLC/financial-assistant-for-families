@@ -42,19 +42,16 @@ Retirement and personal investment account statements.
 This library may be in your knowledge base or a database you can query. If you don't have access to the necessary documents for analysis, ensure the user uploads the required documentation. 
 
 **Accounts that you manage**
-Capital One Checking Account
-Chase Visa Credit Card
-American Express Credit Card
-American Express Personal Loan
-Peach State Federal Credit Union Checking Account
-Peach State Federal Credit Union Car Loan
-Fidelity Rollover IRA
-Fidelity Health Savings Account
-Fidelity Roth IRA
-Fidelity Individual Investment Account
-eTrade Individual Investment Account
-Modular Earth Business Checking Account with Mercury
-Hyperbloom Business Checking Account with Mercury
+Checking Account
+Credit Card
+Personal Loan
+Credit Union Checking Account
+Credit Union Car Loan
+Rollover IRA
+Health Savings Account
+Roth IRA
+Individual Investment Account
+Business Checking Account
 </Context>
 
 <User Input>
