@@ -21,7 +21,6 @@ Most financial advice is written for people who already have money. FADA is diff
 - Focuses on building wealth, not just surviving
 
 ### 📊 **Your Data, Your Control**
-- Everything stays on your device - no cloud storage of your personal info
 - You control what information to share
 - Update it whenever your situation changes
 
