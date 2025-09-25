@@ -1,0 +1,305 @@
+{
+  "profile": {
+    "user_name": "Cookie Monster",
+    "age": 35,
+    "location": "Sesame Valley, Ohio",
+    "family_members": [
+      {
+        "name": "Elmo",
+        "relationship": "spouse",
+        "age": 33,
+        "income_contributor": true,
+        "notes": "Preschool teacher, loves teaching ABCs"
+      },
+      {
+        "name": "Mini Cookie",
+        "relationship": "daughter",
+        "age": 8,
+        "income_contributor": false
+      },
+      {
+        "name": "Little Elmo",
+        "relationship": "son",
+        "age": 5,
+        "income_contributor": false
+      }
+    ],
+    "employment": {
+      "status": "employed",
+      "primary_job": {
+        "title": "Bakery Manager",
+        "employer": "Hooper's Store Bakery",
+        "annual_salary": 42000,
+        "stability": "stable",
+        "notes": "Great benefits, dental coverage for cookie care"
+      },
+      "additional_income": [
+        {
+          "source": "Cookie recipe blog",
+          "annual_amount": 3600,
+          "frequency": "monthly passive income"
+        }
+      ]
+    }
+  },
+  "financial_snapshot": {
+    "total_annual_income": 68000,
+    "monthly_take_home": 4600,
+    "total_assets": 18500,
+    "total_liabilities": 35000,
+    "net_worth": -16500,
+    "emergency_fund_months": 1.2
+  },
+  "accounts": {
+    "banking": [
+      {
+        "institution": "Sesame Community Credit Union",
+        "type": "checking",
+        "balance": 2800,
+        "purpose": "Daily expenses",
+        "monthly_fees": 0
+      },
+      {
+        "institution": "Sesame Community Credit Union",
+        "type": "savings",
+        "balance": 5500,
+        "purpose": "Emergency fund - growing each month!",
+        "monthly_fees": 0
+      }
+    ],
+    "investments": [
+      {
+        "type": "401k",
+        "institution": "Hooper's Retirement Plan",
+        "balance": 8200,
+        "contribution_monthly": 210,
+        "employer_match": 105,
+        "notes": "Getting full 3% match!"
+      },
+      {
+        "type": "529",
+        "institution": "Ohio CollegeSave",
+        "balance": 2000,
+        "contribution_monthly": 50,
+        "notes": "Started last year for kids"
+      }
+    ],
+    "business": []
+  },
+  "debts": [
+    {
+      "type": "Credit Card",
+      "creditor": "Local Bank Card",
+      "original_amount": 3000,
+      "current_balance": 2500,
+      "interest_rate": 18.99,
+      "minimum_payment": 75,
+      "target_payoff_date": "December 2026",
+      "payoff_priority": 1,
+      "notes": "Used for new oven - essential for cookie experiments"
+    },
+    {
+      "type": "Car Loan",
+      "creditor": "Credit Union Auto",
+      "original_amount": 22000,
+      "current_balance": 18000,
+      "interest_rate": 5.9,
+      "minimum_payment": 425,
+      "target_payoff_date": "2028",
+      "payoff_priority": 3,
+      "notes": "2020 family minivan - great for cookie deliveries"
+    },
+    {
+      "type": "Student Loan",
+      "creditor": "Federal Student Aid",
+      "original_amount": 18000,
+      "current_balance": 14500,
+      "interest_rate": 4.5,
+      "minimum_payment": 165,
+      "target_payoff_date": "2034",
+      "payoff_priority": 2,
+      "notes": "Elmo's education degree"
+    }
+  ],
+  "monthly_budget": {
+    "income": {
+      "primary_salary_net": 2650,
+      "spouse_salary_net": 1650,
+      "side_income": 300,
+      "other_income": 0,
+      "total_monthly_income": 4600
+    },
+    "fixed_expenses": {
+      "housing": {
+        "rent_or_mortgage": 1200,
+        "property_tax": 0,
+        "homeowners_insurance": 0,
+        "hoa_fees": 0
+      },
+      "utilities": {
+        "electricity": 140,
+        "gas": 45,
+        "water_sewer": 60,
+        "internet": 60,
+        "phone": 80
+      },
+      "insurance": {
+        "health": 180,
+        "auto": 165,
+        "life": 45,
+        "disability": 0
+      },
+      "childcare": 150,
+      "other_fixed": {
+        "school_lunch": 80,
+        "streaming_services": 25
+      }
+    },
+    "variable_expenses": {
+      "groceries": 650,
+      "dining_out": 100,
+      "entertainment": 80,
+      "transportation": {
+        "gas": 200,
+        "maintenance": 50,
+        "parking_tolls": 0,
+        "public_transit": 0
+      },
+      "personal_care": 80,
+      "clothing": 75,
+      "household_items": 50,
+      "other_variable": {
+        "kids_activities": 120,
+        "medical_copays": 40
+      }
+    },
+    "debt_payments": {
+      "credit_cards": 75,
+      "personal_loans": 0,
+      "auto_loans": 425,
+      "student_loans": 165,
+      "other_debts": 0
+    },
+    "savings_investments": {
+      "emergency_fund": 200,
+      "retirement_401k": 210,
+      "retirement_ira": 0,
+      "retirement_roth": 0,
+      "hsa_contribution": 0,
+      "college_savings": 50,
+      "other_savings": 100
+    }
+  },
+  "financial_goals": {
+    "immediate": [
+      {
+        "goal": "Maintain emergency fund momentum",
+        "target_amount": 200,
+        "target_date": "Monthly",
+        "priority": 1
+      },
+      {
+        "goal": "Increase blog income",
+        "target_amount": 500,
+        "target_date": "6 months",
+        "priority": 2
+      }
+    ],
+    "short_term": [
+      {
+        "goal": "Pay off credit card",
+        "target_amount": 2500,
+        "target_date": "18 months",
+        "monthly_allocation": 150,
+        "notes": "Snowball extra payments when possible"
+      },
+      {
+        "goal": "Build 3-month emergency fund",
+        "target_amount": 13800,
+        "target_date": "2 years",
+        "monthly_allocation": 200,
+        "notes": "Already at $5,500!"
+      }
+    ],
+    "medium_term": [
+      {
+        "goal": "Increase retirement contributions",
+        "target_amount": 400,
+        "target_date": "After credit card payoff",
+        "strategy": "Redirect credit card payment to 401k"
+      },
+      {
+        "goal": "Kids' college savings boost",
+        "target_amount": 150,
+        "target_date": "3 years",
+        "strategy": "Increase as income grows"
+      }
+    ],
+    "long_term": [
+      {
+        "goal": "Home ownership",
+        "target_amount": 25000,
+        "target_date": "5-7 years",
+        "assumptions": "Save for 10% down payment on $250k home"
+      },
+      {
+        "goal": "Retirement security",
+        "target_amount": 750000,
+        "target_date": "Age 65",
+        "assumptions": "On track with current savings rate!"
+      }
+    ]
+  },
+  "preferences": {
+    "risk_tolerance": "moderate",
+    "investment_knowledge": "intermediate",
+    "time_availability": "moderate",
+    "primary_concerns": [
+      "Balancing current needs with future goals",
+      "Teaching kids about money",
+      "Maximizing employer benefits",
+      "Growing side income"
+    ],
+    "values_priorities": [
+      "Family time and experiences",
+      "Financial education for kids",
+      "Community involvement",
+      "Building generational wealth"
+    ],
+    "preferred_communication": {
+      "frequency": "bi-weekly",
+      "detail_level": "moderate",
+      "focus_areas": [
+        "Progress tracking",
+        "Optimization opportunities",
+        "Investment education"
+      ]
+    },
+    "constraints": {
+      "cannot_reduce": [
+        "Housing",
+        "Kids' activities",
+        "Retirement contributions",
+        "Emergency fund savings"
+      ],
+      "must_maintain": [
+        "Health insurance",
+        "Reliable transportation",
+        "Educational opportunities"
+      ],
+      "special_circumstances": [
+        "Spouse has summers off (teacher schedule)",
+        "Side business has growth potential",
+        "Strong family support network",
+        "Excellent credit score (720+)"
+      ]
+    }
+  },
+  "metadata": {
+    "created_date": "2025-09-25",
+    "last_updated": "2025-09-25",
+    "version": "1.0",
+    "review_frequency": "monthly",
+    "notes": "Example of typical American working family building financial stability"
+  }
+}

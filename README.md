@@ -1,30 +1,91 @@
-# Financial Assistant for Families (FADA)
+# FADA - Your Family's Financial Assistant 🤝💰
 
-This GitHub repository features a Financial Assistant and Data Analyst (FADA), an AI agent designed specifically for working-class families navigating everyday financial decisions. FADA focuses on practical budgeting, debt management, savings, and accessible investment planning that fits real family life.
+**AI financial guidance that actually works for working families**
 
-## Who FADA Serves
+FADA (Financial Assistant & Data Analytics) is your personal AI financial coach, built specifically for families who work hard but struggle to get ahead financially. No fancy jargon, no sales pitches, just practical help that fits your real life.
 
-FADA is built for typical American families who:
-- Balance work, family, and financial responsibilities  
-- Make thoughtful decisions about spending and saving
-- Want to build wealth using straightforward financial tools
-- Need personalized guidance that fits their actual situation
-- Value their time and want efficient, actionable advice
+## Why FADA Exists
 
-Whether you're managing a household budget, planning for your children's future, paying down common debts like credit cards or car loans, or getting started with investing, FADA provides tailored advice that makes sense for working families.
+Most financial advice is written for people who already have money. FADA is different - we're built for families who:
+- Work paycheck to paycheck but want to build wealth
+- Juggle multiple debts while raising kids
+- Need simple, clear advice without the financial industry complexity
+- Want to teach their kids about money the right way
+- Are tired of being told they need to "just budget better"
 
-## Key Features
+## What Makes FADA Different
 
-- **Personalized Financial Analysis**: Upload your financial documents for customized insights
-- **Family-Focused Budgeting**: Tools designed around real family expenses and priorities  
-- **Debt Management**: Strategic approaches to common debts (credit cards, loans, mortgages)
-- **Accessible Investment Guidance**: Simple strategies for stocks, ETFs, and retirement accounts
-- **Goal-Based Planning**: Help with emergency funds, college savings, and retirement planning
-- **Time-Efficient**: Designed for busy families who need clear, actionable steps
+### 🎯 **Built for Real Families**
+- Understands the challenges of working parents
+- Knows that "just cut your coffee" won't fix real financial problems
+- Focuses on building wealth, not just surviving
+
+### 📊 **Your Data, Your Control**
+- Everything stays on your device - no cloud storage of your personal info
+- You control what information to share
+- Update it whenever your situation changes
+
+### ⚡ **Quick & Practical**
+- Get started in 15 minutes, not 15 hours
+- Clear next steps you can actually do
+- No overwhelming spreadsheets or complex tools
+
+### 🏠 **Family-Focused Planning**
+- Balances today's needs with tomorrow's dreams
+- Helps you save for your kids' future
+- Makes retirement planning simple and achievable
+
+## How It Works
+
+**New to FADA?** Just start chatting! FADA will ask you about your family, income, expenses, and goals. Takes about 15 minutes and you'll have a personalized financial plan.
+
+**Already have a profile?** Upload your FADA file and pick up right where you left off. FADA remembers everything and tracks your progress.
+
+## What You Get
+
+- **Smart Budgeting**: A budget that actually works for your family's real expenses
+- **Debt Strategy**: Clear plan to pay off debts faster and save money on interest  
+- **Emergency Fund**: Step-by-step guide to build financial security
+- **Investment Help**: Simple strategies for retirement and college savings
+- **Progress Tracking**: See how you're improving over time
+- **Goal Planning**: Turn dreams into achievable financial plans
 
 ## Getting Started
 
-For detailed setup instructions and implementation guides, see [developer_guide.md](developer_guide.md).
+Ready to take control of your family's finances? Just start a conversation with FADA and say "I need help with my finances."
+
+## How to Set Up FADA
+
+FADA works on multiple AI platforms. Choose the one that works best for you:
+
+### 🤖 ChatGPT Custom GPTs
+1. Go to [chatgpt.com/create](https://chatgpt.com/create) and sign in
+2. Click "Create a GPT" 
+3. In the Configure tab, paste the system prompt from `financial_assistant.system.prompt.md`
+4. Upload `knowledge_base_template.json` as a knowledge file
+5. Name your GPT "FADA" and save it
+
+### 🧠 Anthropic Claude Projects
+1. Go to [console.anthropic.com](https://console.anthropic.com) and create a new project
+2. Upload `financial_assistant.system.prompt.md` as the system prompt
+3. Add `knowledge_base_template.json` as a reference file
+4. Start chatting with your personalized FADA
+
+### 🌟 Mistral AI Le Chat Pro
+1. Go to [chat.mistral.ai](https://chat.mistral.ai) and sign in
+2. Create a new custom agent
+3. Paste the system prompt from `financial_assistant.system.prompt.md`
+4. Enable web search and code execution
+5. Upload the template files as reference
+
+### 🏠 OpenWebUI with Ollama
+1. Install OpenWebUI and Ollama on your computer
+2. Download a financial model (like Llama 3.1 or Mistral)
+3. In OpenWebUI, create a new custom model
+4. Set the system prompt from `financial_assistant.system.prompt.md`
+5. Upload the knowledge base template as a reference
+
+*For detailed technical setup instructions, see the [Developer Guide](developer_guide.md).*
 
 # Why I chose the MIT License
 This license aligns with Modular Earth's mission to support social good through open-source AI-driven applications, and our commitment to accessibility, privacy, trust, and minimizing costs.
