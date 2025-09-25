@@ -1,0 +1,75 @@
+## Role and Mission
+## Core Purpose
+## Core Capabilities
+## Knowledge Base Integration
+### Configuration Loading
+### Knowledge Base Structure
+## Onboarding Protocol
+### Phase 1: Introduction & Context Setting
+### Phase 2: Progressive Information Gathering
+### Phase 3: Knowledge Base Generation
+## Knowledge Base Operations (CRUD)
+### Create Operations
+### Read Operations
+### Update Operations
+### Delete Operations
+### Data Integrity Rules
+## Data Collection Standards
+### Required Documentation
+### Data Processing Protocol
+## Analysis Framework
+### Structured Analysis Protocol
+#### Step 1: Situation Assessment
+#### Step 2: Goal Prioritization Matrix
+#### Step 3: Strategic Recommendations
+#### Step 4: Validation and Adjustment
+#### Step 5: Implementation Support
+## Mathematical Modeling Framework
+### Core Financial Formulas
+#### Debt Payoff Calculations
+#### Investment Growth Projections
+#### Financial Ratios
+### Forecasting Methodology
+#### Time Series Analysis
+#### Monte Carlo Simulations
+### Prioritization Scoring Algorithm
+### Confidence Level Calculations
+## Decision-Making Hierarchy
+## Communication Standards
+### Tone and Approach
+### Response Format Template
+## Quick Summary
+## Your Current Situation
+## Key Metrics
+## Recommended Actions
+### 🚀 This Week
+### 📅 This Month  
+### 🎯 Next 3 Months
+## Resources & Tools
+## Progress Check-in
+### Behavioral Guidelines
+## Behavioral Coaching
+### Common Challenges and Responses
+### Error Handling Protocol
+## Advanced Features
+### Scenario Planning
+### Automation Recommendations
+### Resource Matching
+## Quality Assurance
+### Mathematical Accuracy Standards
+### Recommendation Validation
+### Ethical Guidelines
+### Continuous Improvement Protocol
+## Automated Calculations and Metrics Tracking
+### On Every Knowledge Base Update
+### Monthly Automated Reviews
+### Intelligent Alerts and Notifications
+## System Integration
+### Multi-Session Continuity
+### Platform Optimization
+## Success Metrics
+## Financial Services Best Practices
+### Data Security and Privacy
+### Regulatory Compliance
+### Data Quality Standards
+### Professional Standards

@@ -1,0 +1,341 @@
+{
+  "profile": {
+    "user_name": "",
+    "age": null,
+    "location": "",
+    "family_members": [
+      {
+        "name": "",
+        "relationship": "",
+        "age": null,
+        "income_contributor": false
+      }
+    ],
+    "employment": {
+      "status": "",
+      "primary_job": {
+        "title": "",
+        "employer": "",
+        "annual_salary": null,
+        "stability": ""
+      },
+      "additional_income": [
+        {
+          "source": "",
+          "annual_amount": null,
+          "frequency": ""
+        }
+      ]
+    }
+  },
+  "financial_snapshot": {
+    "total_annual_income": null,
+    "monthly_take_home": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "net_worth": null,
+    "emergency_fund_months": null
+  },
+  "accounts": {
+    "banking": [
+      {
+        "institution": "",
+        "type": "",
+        "balance": null,
+        "purpose": "",
+        "monthly_fees": null
+      }
+    ],
+    "investments": [
+      {
+        "type": "",
+        "institution": "",
+        "balance": null,
+        "contribution_monthly": null,
+        "employer_match": null,
+        "vesting_schedule": ""
+      }
+    ],
+    "business": [
+      {
+        "business_name": "",
+        "type": "",
+        "institution": "",
+        "balance": null,
+        "average_monthly_revenue": null
+      }
+    ]
+  },
+  "debts": [
+    {
+      "type": "",
+      "creditor": "",
+      "original_amount": null,
+      "current_balance": null,
+      "interest_rate": null,
+      "minimum_payment": null,
+      "target_payoff_date": "",
+      "payoff_priority": null
+    }
+  ],
+  "monthly_budget": {
+    "income": {
+      "primary_salary_net": null,
+      "spouse_salary_net": null,
+      "side_income": null,
+      "other_income": null,
+      "total_monthly_income": null
+    },
+    "fixed_expenses": {
+      "housing": {
+        "rent_or_mortgage": null,
+        "property_tax": null,
+        "homeowners_insurance": null,
+        "hoa_fees": null
+      },
+      "utilities": {
+        "electricity": null,
+        "gas": null,
+        "water_sewer": null,
+        "internet": null,
+        "phone": null
+      },
+      "insurance": {
+        "health": null,
+        "auto": null,
+        "life": null,
+        "disability": null
+      },
+      "childcare": null,
+      "other_fixed": {}
+    },
+    "variable_expenses": {
+      "groceries": null,
+      "dining_out": null,
+      "entertainment": null,
+      "transportation": {
+        "gas": null,
+        "maintenance": null,
+        "parking_tolls": null,
+        "public_transit": null
+      },
+      "personal_care": null,
+      "clothing": null,
+      "household_items": null,
+      "other_variable": {}
+    },
+    "debt_payments": {
+      "credit_cards": null,
+      "personal_loans": null,
+      "auto_loans": null,
+      "student_loans": null,
+      "other_debts": null
+    },
+    "savings_investments": {
+      "emergency_fund": null,
+      "retirement_401k": null,
+      "retirement_ira": null,
+      "retirement_roth": null,
+      "hsa_contribution": null,
+      "college_savings": null,
+      "other_savings": null
+    }
+  },
+  "financial_goals": {
+    "immediate": [
+      {
+        "goal": "",
+        "target_amount": null,
+        "target_date": "",
+        "priority": null
+      }
+    ],
+    "short_term": [
+      {
+        "goal": "",
+        "target_amount": null,
+        "target_date": "",
+        "monthly_allocation": null
+      }
+    ],
+    "medium_term": [
+      {
+        "goal": "",
+        "target_amount": null,
+        "target_date": "",
+        "strategy": ""
+      }
+    ],
+    "long_term": [
+      {
+        "goal": "",
+        "target_amount": null,
+        "target_date": "",
+        "assumptions": ""
+      }
+    ]
+  },
+  "preferences": {
+    "risk_tolerance": "",
+    "investment_knowledge": "",
+    "time_availability": "",
+    "primary_concerns": [],
+    "values_priorities": [],
+    "preferred_communication": {
+      "frequency": "",
+      "detail_level": "",
+      "focus_areas": []
+    },
+    "constraints": {
+      "cannot_reduce": [],
+      "must_maintain": [],
+      "special_circumstances": []
+    }
+  },
+  "financial_metrics": {
+    "current_ratios": {
+      "debt_to_income": null,
+      "savings_rate": null,
+      "emergency_fund_ratio": null,
+      "net_worth_to_income": null,
+      "housing_cost_ratio": null,
+      "total_debt_service_ratio": null
+    },
+    "historical_data": {
+      "income_history": [
+        {
+          "date": "",
+          "annual_income": null,
+          "notes": ""
+        }
+      ],
+      "net_worth_history": [
+        {
+          "date": "",
+          "assets": null,
+          "liabilities": null,
+          "net_worth": null
+        }
+      ],
+      "savings_rate_history": [
+        {
+          "date": "",
+          "rate": null,
+          "amount": null
+        }
+      ]
+    },
+    "benchmark_comparisons": {
+      "peer_group": "",
+      "income_percentile": null,
+      "net_worth_percentile": null,
+      "savings_rate_percentile": null
+    }
+  },
+  "analysis_history": {
+    "prioritization_scores": [
+      {
+        "date": "",
+        "goal": "",
+        "urgency_score": null,
+        "interest_rate_impact": null,
+        "long_term_multiplier": null,
+        "feasibility_score": null,
+        "values_alignment": null,
+        "total_score": null,
+        "action_taken": ""
+      }
+    ],
+    "recommendations": [
+      {
+        "date": "",
+        "category": "",
+        "recommendation": "",
+        "expected_impact": "",
+        "implementation_status": "",
+        "actual_result": ""
+      }
+    ],
+    "milestone_achievements": [
+      {
+        "date": "",
+        "milestone": "",
+        "metric_achieved": "",
+        "celebration_notes": ""
+      }
+    ]
+  },
+  "projections": {
+    "debt_payoff": {
+      "strategy": "",
+      "projected_freedom_date": "",
+      "total_interest_saved": null,
+      "monthly_payment_plan": null,
+      "confidence_level": null
+    },
+    "retirement": {
+      "target_amount": null,
+      "projected_achievement_date": "",
+      "monthly_contribution_needed": null,
+      "assumed_return_rate": null,
+      "confidence_interval": {
+        "conservative": null,
+        "moderate": null,
+        "optimistic": null
+      }
+    },
+    "emergency_fund": {
+      "target_months": null,
+      "target_amount": null,
+      "projected_completion_date": "",
+      "monthly_contribution": null
+    },
+    "major_purchases": [
+      {
+        "item": "",
+        "target_amount": null,
+        "target_date": "",
+        "saving_strategy": "",
+        "monthly_allocation": null
+      }
+    ],
+    "scenario_analyses": [
+      {
+        "scenario_name": "",
+        "description": "",
+        "impact_on_goals": "",
+        "recommended_adjustments": "",
+        "last_updated": ""
+      }
+    ]
+  },
+  "optimization_opportunities": {
+    "identified_inefficiencies": [
+      {
+        "category": "",
+        "current_cost": null,
+        "potential_savings": null,
+        "implementation_difficulty": "",
+        "priority": null
+      }
+    ],
+    "tax_optimization": {
+      "current_tax_burden": null,
+      "optimization_strategies": [],
+      "estimated_annual_savings": null
+    },
+    "debt_consolidation": {
+      "consolidation_opportunities": [],
+      "potential_interest_savings": null,
+      "recommended_action": ""
+    }
+  },
+  "metadata": {
+    "created_date": "",
+    "last_updated": "",
+    "version": "0.1",
+    "review_frequency": "",
+    "next_review_date": "",
+    "data_quality_score": null
+  }
+}

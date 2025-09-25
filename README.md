@@ -1,5 +1,30 @@
-# financial-assistant-for-families
-This GitHub repository features an AI-driven personal financial assistant focused on budgeting, debt management, savings, and investment planning. It offers tailored financial advice and analyzes financial documents to provide actionable insights, making it ideal for users who need financial guidance or are interested in economic data analysis.
+# Financial Assistant for Families (FADA)
+
+This GitHub repository features a Financial Assistant and Data Analyst (FADA), an AI agent designed specifically for working-class families navigating everyday financial decisions. FADA focuses on practical budgeting, debt management, savings, and accessible investment planning that fits real family life.
+
+## Who FADA Serves
+
+FADA is built for typical American families who:
+- Balance work, family, and financial responsibilities  
+- Make thoughtful decisions about spending and saving
+- Want to build wealth using straightforward financial tools
+- Need personalized guidance that fits their actual situation
+- Value their time and want efficient, actionable advice
+
+Whether you're managing a household budget, planning for your children's future, paying down common debts like credit cards or car loans, or getting started with investing, FADA provides tailored advice that makes sense for working families.
+
+## Key Features
+
+- **Personalized Financial Analysis**: Upload your financial documents for customized insights
+- **Family-Focused Budgeting**: Tools designed around real family expenses and priorities  
+- **Debt Management**: Strategic approaches to common debts (credit cards, loans, mortgages)
+- **Accessible Investment Guidance**: Simple strategies for stocks, ETFs, and retirement accounts
+- **Goal-Based Planning**: Help with emergency funds, college savings, and retirement planning
+- **Time-Efficient**: Designed for busy families who need clear, actionable steps
+
+## Getting Started
+
+For detailed setup instructions and implementation guides, see [developer_guide.md](developer_guide.md).
 
 # Why I chose the MIT License
 This license aligns with Modular Earth's mission to support social good through open-source AI-driven applications, and our commitment to accessibility, privacy, trust, and minimizing costs.
@@ -14,4 +39,4 @@ This license aligns with Modular Earth's mission to support social good through 
 
 5. **Minimal Restrictions**: The only significant requirement of the MIT License is that the original copyright and permission notice be included in all copies or substantial portions of the software. This minimal restriction supports Modular Earth's principles of minimizing costs and maximizing accessibility.
 
-The MIT License effectively supports Modular Earth's mission and principles. It allows this financial assistant to be accessible to all. 
+The MIT License effectively supports Modular Earth's mission and principles. It allows this financial assistant to be accessible to all.

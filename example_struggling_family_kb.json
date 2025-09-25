@@ -1,0 +1,307 @@
+{
+  "_NOTICE_AI_BIAS_TRAINING_EXAMPLE": {
+    "WARNING": "⚠️ THIS FILE IS AN EDUCATIONAL EXAMPLE OF AI BIAS IN TRAINING DATA ⚠️",
+    "ai_generated_by": "Anthropic Claude Opus 4.1 in Cursor on September 25, 2025",
+    "human_developer_disclaimer": "The human developer DID NOT write these stereotypes",
+    "educational_purpose": "This file will be presented in MLOps class during Model Training and Governance section",
+    "demonstrates": [
+      "How AI systems can inadvertently generate biased content",
+      "Critical importance of identifying bias in AI-generated content", 
+      "Need for proper guardrails in generative AI systems",
+      "How training data can perpetuate harmful stereotypes"
+    ],
+    "problematic_stereotypes_in_this_ai_output": [
+      "Hispanic family (Rodriguez) portrayed with stereotypical financial struggles",
+      "Mother working two jobs (restaurant server + house cleaning)", 
+      "Father in construction work with seasonal employment instability",
+      "Family facing medical debt, no health insurance, living paycheck-to-paycheck",
+      "Reinforces harmful narratives about Hispanic families in America"
+    ],
+    "future_action": "This file will be edited in a future Git commit to remove stereotypes and create bias-free example",
+    "reminder": "Always review AI-generated content for bias before using in production. Diverse, inclusive training data and robust testing protocols are essential."
+  },
+  "profile": {
+    "user_name": "Maria Rodriguez",
+    "age": 34,
+    "location": "Phoenix, Arizona",
+    "family_members": [
+      {
+        "name": "Carlos",
+        "relationship": "spouse",
+        "age": 36,
+        "income_contributor": true,
+        "notes": "Construction worker, seasonal employment"
+      },
+      {
+        "name": "Sofia",
+        "relationship": "daughter",
+        "age": 8,
+        "income_contributor": false
+      },
+      {
+        "name": "Miguel",
+        "relationship": "son",
+        "age": 5,
+        "income_contributor": false
+      }
+    ],
+    "employment": {
+      "status": "employed",
+      "primary_job": {
+        "title": "Restaurant Server",
+        "employer": "Local Diner",
+        "annual_salary": 28000,
+        "stability": "uncertain",
+        "notes": "Tips vary, no benefits"
+      },
+      "additional_income": [
+        {
+          "source": "House cleaning side job",
+          "annual_amount": 4800,
+          "frequency": "weekends"
+        }
+      ]
+    }
+  },
+  "financial_snapshot": {
+    "total_annual_income": 58000,
+    "monthly_take_home": 3900,
+    "total_assets": 8500,
+    "total_liabilities": 42000,
+    "net_worth": -33500,
+    "emergency_fund_months": 0.3
+  },
+  "accounts": {
+    "banking": [
+      {
+        "institution": "Local Credit Union",
+        "type": "checking",
+        "balance": 1200,
+        "purpose": "Daily expenses",
+        "monthly_fees": 0
+      }
+    ],
+    "investments": [],
+    "business": []
+  },
+  "debts": [
+    {
+      "type": "Credit Card 1",
+      "creditor": "Big Bank Card",
+      "original_amount": 5000,
+      "current_balance": 8500,
+      "interest_rate": 24.99,
+      "minimum_payment": 250,
+      "target_payoff_date": "",
+      "payoff_priority": 1,
+      "notes": "Used for car repair emergency"
+    },
+    {
+      "type": "Credit Card 2",
+      "creditor": "Store Card",
+      "original_amount": 2000,
+      "current_balance": 3200,
+      "interest_rate": 28.99,
+      "minimum_payment": 95,
+      "target_payoff_date": "",
+      "payoff_priority": 2,
+      "notes": "Kids' school supplies and clothes"
+    },
+    {
+      "type": "Car Loan",
+      "creditor": "Auto Finance Co",
+      "original_amount": 25000,
+      "current_balance": 22000,
+      "interest_rate": 12.5,
+      "minimum_payment": 475,
+      "target_payoff_date": "2029",
+      "payoff_priority": 4,
+      "notes": "2018 minivan for family"
+    },
+    {
+      "type": "Medical Debt",
+      "creditor": "Hospital",
+      "original_amount": 10000,
+      "current_balance": 8300,
+      "interest_rate": 0,
+      "minimum_payment": 100,
+      "target_payoff_date": "",
+      "payoff_priority": 3,
+      "notes": "Payment plan for Miguel's emergency surgery"
+    }
+  ],
+  "monthly_budget": {
+    "income": {
+      "primary_salary_net": 1900,
+      "spouse_salary_net": 1600,
+      "side_income": 400,
+      "other_income": 0,
+      "total_monthly_income": 3900
+    },
+    "fixed_expenses": {
+      "housing": {
+        "rent_or_mortgage": 1400,
+        "property_tax": 0,
+        "homeowners_insurance": 0,
+        "hoa_fees": 0
+      },
+      "utilities": {
+        "electricity": 180,
+        "gas": 40,
+        "water_sewer": 65,
+        "internet": 50,
+        "phone": 90
+      },
+      "insurance": {
+        "health": 0,
+        "auto": 185,
+        "life": 0,
+        "disability": 0
+      },
+      "childcare": 200,
+      "other_fixed": {
+        "school_lunch": 80
+      }
+    },
+    "variable_expenses": {
+      "groceries": 600,
+      "dining_out": 40,
+      "entertainment": 20,
+      "transportation": {
+        "gas": 250,
+        "maintenance": 50,
+        "parking_tolls": 0,
+        "public_transit": 0
+      },
+      "personal_care": 60,
+      "clothing": 50,
+      "household_items": 40,
+      "other_variable": {
+        "kids_activities": 0,
+        "medical_copays": 50
+      }
+    },
+    "debt_payments": {
+      "credit_cards": 345,
+      "personal_loans": 0,
+      "auto_loans": 475,
+      "student_loans": 0,
+      "other_debts": 100
+    },
+    "savings_investments": {
+      "emergency_fund": 0,
+      "retirement_401k": 0,
+      "retirement_ira": 0,
+      "retirement_roth": 0,
+      "hsa_contribution": 0,
+      "college_savings": 0,
+      "other_savings": 0
+    }
+  },
+  "financial_goals": {
+    "immediate": [
+      {
+        "goal": "Avoid late fees and keep utilities on",
+        "target_amount": 500,
+        "target_date": "This month",
+        "priority": 1
+      },
+      {
+        "goal": "Build $500 emergency fund",
+        "target_amount": 500,
+        "target_date": "6 months",
+        "priority": 2
+      }
+    ],
+    "short_term": [
+      {
+        "goal": "Pay off highest interest credit card",
+        "target_amount": 3200,
+        "target_date": "18 months",
+        "monthly_allocation": 0,
+        "notes": "Store card at 28.99% APR"
+      }
+    ],
+    "medium_term": [
+      {
+        "goal": "Get health insurance for family",
+        "target_amount": 400,
+        "target_date": "When possible",
+        "strategy": "Find job with benefits or qualify for subsidies"
+      },
+      {
+        "goal": "Start saving for kids' education",
+        "target_amount": 50,
+        "target_date": "2 years",
+        "strategy": "Even $25/month would help"
+      }
+    ],
+    "long_term": [
+      {
+        "goal": "Own a home",
+        "target_amount": 10000,
+        "target_date": "Someday",
+        "assumptions": "Need down payment and better credit"
+      },
+      {
+        "goal": "Retirement security",
+        "target_amount": 0,
+        "target_date": "Age 65",
+        "assumptions": "Currently nothing saved"
+      }
+    ]
+  },
+  "preferences": {
+    "risk_tolerance": "very_conservative",
+    "investment_knowledge": "beginner",
+    "time_availability": "minimal",
+    "primary_concerns": [
+      "Making ends meet each month",
+      "Keeping family housed and fed",
+      "Medical emergencies",
+      "Job loss fear",
+      "No retirement savings"
+    ],
+    "values_priorities": [
+      "Children's wellbeing",
+      "Family stability",
+      "Staying out of bankruptcy",
+      "Building better future"
+    ],
+    "preferred_communication": {
+      "frequency": "weekly",
+      "detail_level": "simple",
+      "focus_areas": [
+        "Immediate crisis prevention",
+        "Small wins",
+        "Free resources"
+      ]
+    },
+    "constraints": {
+      "cannot_reduce": [
+        "Rent",
+        "Food for kids",
+        "Car payment (need for work)",
+        "Medical payment plan"
+      ],
+      "must_maintain": [
+        "Utilities",
+        "Transportation to work",
+        "Kids' basic needs"
+      ],
+      "special_circumstances": [
+        "No health insurance",
+        "Spouse's seasonal work",
+        "Past medical bankruptcy consideration",
+        "No family financial support"
+      ]
+    }
+  },
+  "metadata": {
+    "created_date": "2025-09-25",
+    "last_updated": "2025-09-25",
+    "version": "1.0",
+    "review_frequency": "weekly",
+    "notes": "Example of typical working family facing financial challenges"
+  }
+}
