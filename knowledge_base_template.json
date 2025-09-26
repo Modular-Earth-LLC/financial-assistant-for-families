@@ -8,7 +8,8 @@
         "name": "",
         "relationship": "",
         "age": null,
-        "income_contributor": false
+        "income_contributor": false,
+        "_privacy_note": "No full names, schools, or medical details"
       }
     ],
     "employment": {
@@ -333,7 +334,9 @@
   "metadata": {
     "created_date": "",
     "last_updated": "",
-    "version": "0.1",
+    "version": "2.0",
+    "platform": "",
+    "agent_updated_by": "",
     "review_frequency": "",
     "next_review_date": "",
     "data_quality_score": null
