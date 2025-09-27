@@ -2,7 +2,7 @@
 
 **AI financial guidance that actually works for working families**
 
-FADA (Financial Assistant & Data Analytics) is your personal AI financial coach, built specifically for families who work hard but struggle to get ahead financially. No fancy jargon, no sales pitches, just practical help that fits your real life.
+FADA (Financial Assistant for Data Analytics) is your personal AI financial coach, built specifically for families who work hard but struggle to get ahead financially. No fancy jargon, no sales pitches, just practical help that fits your real life.
 
 ## 🆕 Multi-Agent Architecture
 
