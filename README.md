@@ -4,6 +4,9 @@
 
 FADA (Financial Assistant for Data Analytics) is your personal AI financial coach, built specifically for families who work hard but struggle to get ahead financially. No fancy jargon, no sales pitches, just practical help that fits your real life.
 
+> **For Users**: This guide shows you how to use FADA to improve your finances  
+> **For Developers**: See the [Developer Guide](developer_guide.md) for technical setup and implementation details
+
 ## 🆕 Multi-Agent Architecture
 
 FADA now uses a powerful multi-agent system to provide specialized support:
@@ -68,61 +71,67 @@ Upload your FADA knowledge base file to either agent and pick up right where you
 
 Ready to take control of your family's finances? Just start a conversation with FADA Planning Agent and say "I need help with my finances."
 
-## How to Set Up FADA
+## Where to Find FADA
 
-FADA works on multiple AI platforms. Choose the one that works best for you:
+FADA can be hosted on multiple AI platforms:
 
-### 🤖 OpenAI Custom GPTs
+- **🤖 ChatGPT** - You can create two "FADA Planning" and "FADA Analytics" custom GPTs
+- **🧠 Claude** - Create these agents as Claude Projects
+- **🌟 Mistral AI** - Create a custom Agent on Le Chat Pro
+- **💻 Self-Host** - Run privately on your own computer with Ollama and Open WebUI
 
-**Planning Agent Setup:**
-1. Go to [chatgpt.com/create](https://chatgpt.com/create) and sign in
-2. Click "Create a GPT" 
-3. In the Configure tab, paste the system prompt from `fada_planning_agent.system.prompt.md`
-4. Upload `fada_shared_config.json` as a knowledge file
-5. Name your GPT "FADA Planning Agent" and save it
+## Quick Setup (5 Minutes)
 
-**Analytics Agent Setup:**
-1. Create another GPT following the same process
-2. Use the system prompt from `fada_analytics_agent.system.prompt.md`
-3. Upload `fada_shared_config.json` as a knowledge file
-4. Name it "FADA Analytics Agent" and save it
+Want to create your own private FADA agents? Here's the simplest way on each platform:
 
-### 🧠 Anthropic Claude Projects
+### 📁 What You'll Need
+Download these 3 files from this repository:
+- `fada_planning_agent.system.prompt.md` - The planning agent's instructions
+- `fada_analytics_agent.system.prompt.md` - The analytics agent's instructions  
+- `fada_shared_config.json` - Security and data settings (REQUIRED for both agents)
 
-**Planning Agent Setup:**
-1. Go to [console.anthropic.com](https://console.anthropic.com) and create a new project
-2. Name it "FADA Planning"
-3. Upload `fada_planning_agent.system.prompt.md` as the system prompt
-4. Add `fada_shared_config.json` as a project knowledge file
+### 🤖 ChatGPT (Easiest)
+1. **Planning Agent**: [Create New GPT](https://chatgpt.com/create) → Copy text from `fada_planning_agent.system.prompt.md` → Paste in Instructions → Save as "My FADA Planning"
+2. **Analytics Agent**: [Create New GPT](https://chatgpt.com/create) → Copy text from `fada_analytics_agent.system.prompt.md` → Paste in Instructions → Save as "My FADA Analytics"
+3. **Important**: Upload `fada_shared_config.json` to BOTH GPTs under Knowledge
 
-**Analytics Agent Setup:**
-1. Create another project named "FADA Analytics"
-2. Upload `fada_analytics_agent.system.prompt.md` as the system prompt
-3. Add `fada_shared_config.json` to project knowledge
+### 🧠 Claude (Most Powerful)
+1. Go to [Claude Projects](https://claude.ai/projects) → Create "FADA Planning" project
+2. Copy contents of `fada_planning_agent.system.prompt.md` → Paste as Custom Instructions
+3. Create another project "FADA Analytics" with `fada_analytics_agent.system.prompt.md`
+4. Upload `fada_shared_config.json` to both projects
 
-### 🌟 Mistral AI Le Chat Pro
+### 🌟 Mistral (Free Option)
+1. Open [Mistral Chat](https://chat.mistral.ai) → Click your profile → "Custom Agents"
+2. Create "FADA Planning" → Paste planning agent prompt → Save
+3. Create "FADA Analytics" → Paste analytics agent prompt → Save
+4. Upload the shared config file to both agents
 
-**Planning Agent Setup:**
-1. Go to [chat.mistral.ai](https://chat.mistral.ai) and sign in
-2. Create a new custom agent named "FADA Planning"
-3. Paste the system prompt from `fada_planning_agent.system.prompt.md`
-4. Upload `fada_shared_config.json` as reference
+### 💻 Self-Host (Maximum Privacy)
+1. Install [Ollama](https://ollama.ai) and [Open WebUI](https://docs.openwebui.com)
+2. Download a model: `ollama pull llama3.1:8b` (or larger if you have the space)
+3. In Open WebUI → Settings → Models → Create two custom models
+4. Paste the agent prompts and upload the config file
+5. Your data never leaves your computer!
 
-**Analytics Agent Setup:**
-1. Create another agent named "FADA Analytics"
-2. Use `fada_analytics_agent.system.prompt.md` as the prompt
-3. Enable web search and code execution
-4. Upload the shared config as reference
+### 💡 Tips for Success
+- Always upload `fada_shared_config.json` - it's required for security
+- Start with Planning Agent if you're new to FADA
+- Save your knowledge base file after each session
+- Test with the example family data first
 
-### 🏠 Local Setup with Ollama
+### ✅ Test Your Setup
+1. Open your Planning Agent and say: "Hi, I need help with my finances"
+2. It should start a friendly onboarding conversation
+3. After creating a profile, ask it to "show_kb" - it should generate a downloadable file
+4. Take that file to your Analytics Agent and upload it
+5. Ask Analytics: "Analyze my financial situation" - it should provide detailed insights
 
-**Both Agents Setup:**
-1. Install OpenWebUI and Ollama on your computer
-2. Download a capable model (like Llama 3.1 or Mistral)
-3. In OpenWebUI, create two custom models:
-   - FADA Planning: Use `fada_planning_agent.system.prompt.md`
-   - FADA Analytics: Use `fada_analytics_agent.system.prompt.md`
-4. Upload `fada_shared_config.json` to both as reference
+### 🛠️ For Developers & Advanced Setup
+
+Need more control? Want to understand the architecture? 
+
+**→ See the [Developer Guide](developer_guide.md)** for detailed setup instructions, technical architecture, and implementation details.
 
 ## How the Agents Work Together
 
@@ -145,24 +154,17 @@ FADA works on multiple AI platforms. Choose the one that works best for you:
    - Analytics Agent reads and enhances it with calculations
    - Both use the same secure data format
 
-## Technical Details
+## Privacy & Security
 
-- **Planning Agent**: ~4,400 characters (fits all platforms)
-- **Analytics Agent**: ~5,000 characters (fits all platforms)
-- **Shared Config**: Contains security protocols, data schema, and compliance standards
-- **Architecture**: Modular design for easy maintenance and updates
+- **Your Data, Your Control**: All financial data stays in files you control
+- **No Cloud Storage**: Nothing is saved on servers
+- **EU AI Act Compliant**: Built with the highest privacy standards
+- **Open Source**: Fully transparent - see exactly how it works
 
-# Why I chose the MIT License
-This license aligns with Modular Earth's mission to support social good through open-source AI-driven applications, and our commitment to accessibility, privacy, trust, and minimizing costs.
+## Open Source
 
-1. **Permissive Use**: The MIT License is one of the most permissive licenses, allowing for the software to be used, modified, and distributed freely, even for commercial purposes. This aligns well with Modular Earth's goal of making wealth accessible and supporting a wide range of uses without restrictive conditions.
+FADA is released under the MIT License, making it free for everyone to use, modify, and share. This aligns with our mission to democratize financial planning for all families.
 
-2. **Simplicity and Clarity**: The MIT License is short and straightforward, making it easy for users to understand their rights and obligations. This simplicity can help ensure broader adoption and use of the financial assistant.
+---
 
-3. **Compatibility**: The MIT License is compatible with many other licenses, which can be beneficial if the financial assistant needs to be integrated with other software or libraries that have different licensing terms.
-
-4. **Community Trust**: The MIT License is widely recognized and trusted in the open-source community. Using a well-known and respected license can help build trust with users and contributors.
-
-5. **Minimal Restrictions**: The only significant requirement of the MIT License is that the original copyright and permission notice be included in all copies or substantial portions of the software. This minimal restriction supports Modular Earth's principles of minimizing costs and maximizing accessibility.
-
-The MIT License effectively supports Modular Earth's mission and principles. It allows this financial assistant to be accessible to all.
+*Built with ❤️ by [Modular Earth](https://www.linkedin.com/company/modular-earth) to help working families thrive*
